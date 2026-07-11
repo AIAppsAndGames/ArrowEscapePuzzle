@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Play Data Safety Guide — Arrow Puzzle</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <a href="index.html" class="brand">
+      <img src="assets/app-icon.png" class="brand-icon" alt="Arrow Puzzle Icon">
+      <span class="brand-name">Arrow Puzzle</span>
+    </a>
+  </header>
+
+  <main class="legal-content">
+    <h1>Play Store Data Safety Declaration Guide</h1>
+    <div class="copyright">Use this guide to fill out your Google Play Console Data Safety questionnaire.</div>
+    <br>
+    
+    <h2>Data Collection & Security Declarations</h2>
+    <ul>
+      <li><strong>Does your app collect or share any of the required user data types?</strong> Yes</li>
+      <li><strong>Is all of the user data collected by your app encrypted in transit?</strong> Yes</li>
+      <li><strong>Do you provide a way for users to request that their data is deleted?</strong> Yes — in-app via Settings &rarr; Account &rarr; Delete account, or by emailing kajalkarkar007@gmail.com</li>
+      <li><strong>Data deletion URL:</strong> <code>https://ai-apps-and-games.github.io/arrow-puzzle-landing/privacy.html</code></li>
+      <li><strong>Account creation method:</strong> Username and password, OAuth</li>
+    </ul>
+
+    <h2>Data Types Table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Data type</th>
+          <th>Collected</th>
+          <th>Processed ephemerally</th>
+          <th>Required / Choose</th>
+          <th>Shared</th>
+          <th>Purpose</th>
+          <th>Source</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Personal info / Email address</strong></td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Required</td>
+          <td>No</td>
+          <td>Account management</td>
+          <td>Firebase Auth</td>
+        </tr>
+        <tr>
+          <td><strong>Personal info / Name</strong></td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Required</td>
+          <td>No</td>
+          <td>Account management</td>
+          <td>Firebase Auth / Google Sign-In</td>
+        </tr>
+        <tr>
+          <td><strong>Photos and videos / Photos</strong></td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Required</td>
+          <td>No</td>
+          <td>Account management</td>
+          <td>Google Sign-In profile avatar</td>
+        </tr>
+        <tr>
+          <td><strong>Financial info / Purchase history</strong></td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Required</td>
+          <td>No</td>
+          <td>App functionality</td>
+          <td>RevenueCat</td>
+        </tr>
+        <tr>
+          <td><strong>App activity / App interactions</strong></td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Users choose</td>
+          <td>No</td>
+          <td>Analytics</td>
+          <td>Firebase Analytics</td>
+        </tr>
+        <tr>
+          <td><strong>App info and performance / Crash logs</strong></td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Users choose</td>
+          <td>No</td>
+          <td>Fraud prevention, security, and compliance</td>
+          <td>Firebase Crashlytics</td>
+        </tr>
+        <tr>
+          <td><strong>Device or other IDs / Device or other IDs</strong></td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Users choose</td>
+          <td>Yes</td>
+          <td>Analytics; Advertising or marketing</td>
+          <td>Google AdMob, Firebase Analytics</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+    <div class="copyright">&copy; 2026 AI Apps And Games. All rights reserved.</div>
+  </footer>
+</div>
+
+</body>
+</html>
